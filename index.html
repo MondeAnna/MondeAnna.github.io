@@ -11,6 +11,32 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    .container {
+        display: flex;
+    }
+
+    .column-left {
+        order: 1;
+        width: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .column-center {
+        order: 2;
+        width: 60%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .column-right {
+        order: 3;
+        width: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 </style>
 <body>
     <div alt="links-banner" align="center">
@@ -28,16 +54,32 @@
             <img src="./images/twitter.png" alt="Twitter" align="center" width="45px;">
         </a>
     </div>
-    <div alt="intro" align="center">
-    <h3 align="center">Hello</h3>
+    <div alt="body" class="container">
+        <div alt="contact-me" class="column-left">
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+        </div>
+        <div alt="intro" class="column-center">
+            <h3 align="center">Hello</h3>
 
-        <p>I am Monde Anna and I am glad to have you join me this wonderful rollercoaster ride towards Data Science.</p>
+            <p>I am Monde Anna and I am glad to have you join me this wonderful rollercoaster ride towards Data Science.</p>
 
-        <p>Follow along as we ponder deeply the quirks of Statistics.</p>
+            <p>Follow along as we ponder deeply the quirks of Statistics.</p>
 
-        <p>Let us roll up our sleeves as we crank the gears of grand Computer Engineering.</p>
+            <p>Let us roll up our sleeves as we crank the gears of grand Computer Engineering.</p>
 
-        <p>And finally, may we muse about the elgance and grace of Mathematics.</p>
+            <p>And finally, may we muse about the elgance and grace of Mathematics.</p>
+        </div>
+        <div alt="tech-stack" class="column-right">
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+            <p>Temp Text</p>
+        </div>
     </div>
 </body>
 </html>
